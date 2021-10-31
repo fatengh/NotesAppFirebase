@@ -50,5 +50,7 @@ dependencies {
     implementation "androidx.room:room-runtime:2.3.0"
     implementation 'android.arch.persistence.room:runtime:1.1.1'
     kapt "androidx.room:room-compiler:2.3.0"
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.4.0")
 
 }
