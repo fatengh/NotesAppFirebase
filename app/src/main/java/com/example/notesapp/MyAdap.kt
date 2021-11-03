@@ -38,4 +38,5 @@ class MyAdap ( private val activity: MainActivity, private var notes: List<Note>
     override fun getItemCount() = notes.size
 
 
+
 }
